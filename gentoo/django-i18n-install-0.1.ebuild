@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="A helper to run django compilemessages command before install"
 HOMEPAGE="https://github.com/g1itch/${PN}"
-SRC_URI="${HOMEPAGE}/archive/${PV}.tar.gz"
+SRC_URI="${HOMEPAGE}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
